@@ -1,6 +1,6 @@
 # Android gRPC Example
 
-This project is based on [grpc-java](https://github.com/grpc/grpc-java) with some modifications regarding to the defined RPC services.
+This project is based on [this quickstart example](https://grpc.io/docs/platforms/android/java/quickstart/) with some modifications regarding to the defined RPC services.
 
 ## Prerequisites
 
