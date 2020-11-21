@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples";
+option java_outer_classname = "ExampleProto";
+option objc_class_prefix = "HLW";
+
+package examples;
+
+service Example {
+  rpc DoAddition (ExampleRequest) returns (ExampleReply) {}
+  rpc DoSubtraction(ExampleRequest) returns (ExampleReply) {}
+  rpc DoMultiplication (ExampleRequest) returns (ExampleReply) {}
+  rpc DoDivision (ExampleRequest) returns (ExampleReply) {}
+}
+
+message ExampleRequest {
+  int32 firstNumber = 1;
+  int32 secondNumber = 2;
+}
+
+message ExampleReply {
+  string result = 1;
+}
