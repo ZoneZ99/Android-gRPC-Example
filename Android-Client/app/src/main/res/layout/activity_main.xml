@@ -52,7 +52,7 @@
         android:id="@+id/send_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Grpc Request" />
+        android:text="Send gRPC Request" />
 
     <TextView
         android:layout_width="match_parent"
