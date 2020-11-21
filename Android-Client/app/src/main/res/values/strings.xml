@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">gRPC Client</string>
+    <string-array name="operations_array">
+        <item>Add</item>
+        <item>Subtract</item>
+        <item>Multiply</item>
+        <item>Divide</item>
+    </string-array>
+
+</resources>
